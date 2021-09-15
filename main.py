@@ -40,7 +40,7 @@ def knn(training_dataframe, testing_dataframe_row, K):
     return 1 if survived_qtd > not_survived_qtd else 2
 
 
-correctAnswers, totalAnswers, wrongAnswers, K = 3, len(test_df), 0, 5
+correctAnswers, totalAnswers, wrongAnswers, K = 0, len(test_df), 0, 5
 
 realPositives, realNegatives, falsePositives, falseNegatives = 0, 0, 0, 0
 answersArray = {}
